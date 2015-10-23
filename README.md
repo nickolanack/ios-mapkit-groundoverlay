@@ -35,7 +35,7 @@ here is a simplified usage example, which would normally be part of your ViewCon
 	    
 	    }else{
 	    
-	    	// ...
+	    	// ... other types of overlays...
 	    
 	    }
 	    
