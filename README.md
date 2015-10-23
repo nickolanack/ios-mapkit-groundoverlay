@@ -1,6 +1,7 @@
 # ios-mapkit-groundoverlay
-objective c libraries for rendering kml ground overlays
+objective c libraries for rendering kml ground overlays, which also include rotation
 
+here is a simplified usage example.
 
 ```obj-c
 
@@ -19,6 +20,8 @@ objective c libraries for rendering kml ground overlays
 	
     	[super viewDidLoad];
     	[self.mapView setDelegate:self];
+    	
+    	[self addExampleGroundOverlay]
 
 	}
 	
@@ -41,7 +44,7 @@ objective c libraries for rendering kml ground overlays
 	
 	//...
 	
-	-(void)addOverlay{
+	-(void)addExampleGroundOverlay{
 	
 		//mapView *MKMapView
 	    //float north;
