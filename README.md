@@ -1,7 +1,7 @@
 # ios-mapkit-groundoverlay
 objective c libraries for rendering kml ground overlays, which also include rotation
 
-here is a simplified usage example.
+here is a simplified usage example, which would normally be part of your ViewController.m file in your MapView Storyboard
 
 ```obj-c
 
